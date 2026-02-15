@@ -1,0 +1,7 @@
+# Crée la bibliothèque
+make
+
+# Compiler le programme en liant la bibliothèque && Exécute
+cc main.c -L. -lft -o main.x ; ./main.x
+
+# part3 libft : devoir liste chainE
